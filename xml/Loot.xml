@@ -1,0 +1,73 @@
+<!-- Survival Backpack -->
+<lootgroup name="Survival Shirts">
+	<item group="skirtsAll" />
+	<item group="shirtLongAll" />
+	<item group="sweatshirtAll" />
+	<item group="hoodedSweatshirtAll" />
+	<item group="tankTopAll" />
+	<item group="tshirtAll" />
+</lootgroup>
+
+<lootgroup name="Survival Bow" count="all">
+	<item name="woodenBow" />
+	<item name="arrow" count="20,30" />	
+</lootgroup>
+
+<lootgroup name="Survival Pistol" count="all">
+	<item name="gunPistol" count="1" />
+	<item name="9mmBullet" count="10,15" />
+</lootgroup>
+
+<lootgroup name="Survival Range" count="1">
+	<item group="Survival Pistol" prob="0.2" />
+	<item group="crossbow+ammo" prob="0.3" />
+	<item group="Survival Bow" prob="0.5"/>
+</lootgroup>
+
+<lootgroup name="Survival Book" >
+	<item name="crossbowSchematic"/>
+	<item name="huntingKnifeBook"/>
+	<item name="huntingRifleSchematic"/>
+	<item name="leatherBootsSchematic"/>
+	<item name="leatherGlovesSchematic"/>
+	<item name="leatherHoodSchematic"/>
+	<item name="leatherJacketSchematic"/>
+	<item name="leatherPantsSchematic"/>
+	<item name="pistolBook"/>
+	<item name="pumpShotgunSchematic"/>
+	<item name="sawedoffPumpShotgunSchematic"/>
+</lootgroup>
+
+<lootgroup name="Survival Tools" >
+	<item name="pickaxeIron" prob=".1"/>
+	<item name="shovelIron" prob=".1"/>
+	<item name="fireaxeIron" prob=".1"/>
+	<item name="clawHammer" prob=".1"/>
+	<item name="wrench" prob=".1"/>
+	<item group="empty" prob=".5"/>
+</lootgroup>
+	
+<lootgroup name="Survival Pants" >
+	<item group="pantsAll" prob=".3"/>
+	<item name="plantFiberPants" prob=".7"/>
+</lootgroup>
+
+<lootgroup name="Survival Backpack" count="all">
+	<item name="painkillers" />
+	<item name="firstAidBandage" />
+	<item name="bottledWater" />
+	<item group="cannedfood" count="2" />
+	<item group="Survival Tools" />
+	<item group="Survival Range" />
+	<item group="melee" />
+	<item group="hats" />
+	<item group="Survival Shirts" />
+	<item group="Survival Pants" />
+	<item name="wornBoots" />
+	<item group="Survival Book" />
+</lootgroup>
+	
+<lootcontainer id="180" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate">
+	<item group="Survival Backpack" />
+</lootcontainer>
+<!-- Survival Backpack End -->

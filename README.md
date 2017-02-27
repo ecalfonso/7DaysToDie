@@ -8,4 +8,5 @@ Please use the "Issues" to submit any feedback/requests for the server: https://
 *NOTE:* This server is hosted with the free version of Amazon's Web Services. It's highly possible that the server will lag every now and then.
 
 Credits:
-https://7dtd.illy.bz/wiki/Installation
+Easy Server Setup and Management - https://7dtd.illy.bz/wiki/Installation
+Starter Kit Mods - https://7daystodie.com/forums/showthread.php?31157-Survivor-s-Pack-Starting-Gear
