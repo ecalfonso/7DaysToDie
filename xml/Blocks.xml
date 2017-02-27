@@ -1,18 +1,18 @@
-	<!-- Survival Backpack -->
-<block id="1973" name="Survivor's Pack (Locked)">
+	<!-- Starter Kit -->
+<block id="1973" name="Starter Kit (Locked)">
 	<property name="CustomIcon" value="cntBackpack01" />
 	<property name="Material" value="cloth" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/backpack01" param1="main_mesh" />
 	<property name="IsTerrainDecoration" value="true" />
-	<property name="DowngradeBlock" value="Survivor's Pack" />
+	<property name="DowngradeBlock" value="Starter Kit" />
 	<property name="Place" value="TowardsPlacer" />
 	<drop event="Destroy" count="0" />
  </block>
  
-<block id="1974" name="Survivor's Pack">
-	<property name="Extends" value="Survivor's Pack (Locked)" param1="DowngradeBlock" />
+<block id="1974" name="Starter Kit">
+	<property name="Extends" value="Starter Kit (Locked)" param1="DowngradeBlock" />
 	<property name="Class" value="Loot" />
 	<property name="LootList" value="180" />
 	<drop event="Destroy" count="0" />
